@@ -1,0 +1,11 @@
+HelpInfo,C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\html,fpgahelp.qhc,synerrmsg.mp,C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\bin\assistant
+Implementation;Synthesis||FX1184||@N: Applying syn_allowed_resources blockrams=31 on top level netlist Timer ||Timer.srr(225);liberoaction://cross_probe/hdl/file/'<project>\synthesis\Timer.srr'/linenumber/225||null;null
+Implementation;Synthesis||MT530||@W:Found inferred clock Timer|CLK_LOCKED_inferred_clock which controls 23 sequential elements including counter[21:0]. This clock has no specified timing constraint which may adversely impact design performance. ||Timer.srr(251);liberoaction://cross_probe/hdl/file/'<project>\synthesis\Timer.srr'/linenumber/251||led_blink.v(39);liberoaction://cross_probe/hdl/file/'<project>\hdl\LED_BLINK.v'/linenumber/39
+Implementation;Synthesis||FX1143||@N: Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.||Timer.srr(253);liberoaction://cross_probe/hdl/file/'<project>\synthesis\Timer.srr'/linenumber/253||null;null
+Implementation;Synthesis||FP130||@N: Promoting Net reset_arst on CLKINT  I_28 ||Timer.srr(353);liberoaction://cross_probe/hdl/file/'<project>\synthesis\Timer.srr'/linenumber/353||null;null
+Implementation;Synthesis||FP130||@N: Promoting Net CLK_LOCKED on CLKINT  I_29 ||Timer.srr(354);liberoaction://cross_probe/hdl/file/'<project>\synthesis\Timer.srr'/linenumber/354||null;null
+Implementation;Synthesis||BW156||@W:Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.||Timer.srr(397);liberoaction://cross_probe/hdl/file/'<project>\synthesis\Timer.srr'/linenumber/397||null;null
+Implementation;Synthesis||MT420||@W:Found inferred clock Timer|CLK_LOCKED_inferred_clock with period 10.00ns. Please declare a user-defined clock on net CLK_LOCKED_0.||Timer.srr(408);liberoaction://cross_probe/hdl/file/'<project>\synthesis\Timer.srr'/linenumber/408||null;null
+Implementation;Place and Route;RootName:Timer
+Implementation;Place and Route||(null)||Please refer to the log file for details about 4 Info(s)||Timer_layout_log.log;liberoaction://open_report/file/Timer_layout_log.log||(null);(null)
+Implementation;Generate Bitstream;RootName:Timer

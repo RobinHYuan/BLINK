@@ -1,0 +1,15 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\robin.yuan\\OneDrive - General Fusion Inc\\Desktop\\First_FPGA_TEST\\synthesis\\synwork\\WTF_comp.srs|-top|WTF|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|C:\\Users\\robin.yuan\\OneDrive - General Fusion Inc\\Desktop\\First_FPGA_TEST\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\bin64\\c_ver.exe":1655988517
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\generic\\smartfusion2.v":1655988526
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vlog\\hypermods.v":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vlog\\umr_capim.v":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1655988528
+#CUR:"C:\\Microchip\\Libero_SoC_v2022.2\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1655988528
+#CUR:"C:\\Users\\robin.yuan\\OneDrive - General Fusion Inc\\Desktop\\First_FPGA_TEST\\component\\work\\WTF\\WTF.v":1663708765
+0			"C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\component\work\WTF\WTF.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+#Dependency Lists(Users Of)
+0 -1
+#Design Unit to File Association
+module work WTF 0

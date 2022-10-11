@@ -1,0 +1,16 @@
+Project Name: First_FPGA_TEST
+Location: C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S025-VF256
+Family         : SmartFusion2
+Die            : M2S025
+Package        : 256 VF
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM

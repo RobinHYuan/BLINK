@@ -1,0 +1,13 @@
+Software Version: 2022.2.0.10
+Opened 'C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\designer\Timer\Timer_fp\Timer.pro'
+PDB file 'C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\designer\Timer\Timer.pdb' has been loaded successfully.
+DESIGN : Timer;  CHECKSUM : 575A;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\designer\Timer\Timer.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\designer\Timer\Timer.ppd'; file programs Fabric.
+Fabric component bitstream digest: 463a0ebe1397e8071a46245834c3af5b3e150b14f3389965dea3640b906b8a6d
+Entire bitstream digest: 33a560422ff8590e5de4619b0875e3444819818821614f8417082af0ae4c3ba4
+Finished: Tue Sep 20 16:16:49 2022 (Elapsed time 00:00:14)
+
+Project saved.
+Project closed.

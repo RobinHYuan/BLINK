@@ -1,0 +1,165 @@
+Resource Report
+Microchip Technology Inc. - Microchip Libero Software Release v2022.2 (Version 2022.2.0.10)
+Date: Tue Sep 20 16:15:54 2022
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S025         |
+| Package                        | 256 VF         |
+| Speed Grade                    | STD            |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 3.3V           |
+| Default I/O technology         | LVCMOS 3.3V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+----------------------------------------------------------------------------------------------+
+| Topcell | Timer                                                                                        |
+| Format  | Verilog                                                                                      |
+| Source  | C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\synthesis\Timer.vm |
++---------+----------------------------------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 44   | 27696 | 0.16       |
+| DFF                       | 23   | 27696 | 0.08       |
+| I/O Register              | 0    | 414   | 0.00       |
+| User I/O                  | 3    | 138   | 2.17       |
+| -- Single-ended I/O       | 3    | 138   | 2.17       |
+| -- Differential I/O Pairs | 0    | 65    | 0.00       |
+| RAM64x18                  | 0    | 34    | 0.00       |
+| RAM1K18                   | 0    | 31    | 0.00       |
+| MACC                      | 0    | 34    | 0.00       |
+| Chip Globals              | 3    | 16    | 18.75      |
+| CCC                       | 1    | 6     | 16.67      |
+| RCOSC_25_50MHZ            | 0    | 1     | 0.00       |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| MSS                       | 0    | 1     | 0.00       |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 44   | 23  |
+| RAM64x18 Interface Logic | 0    | 0   |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 44   | 23  |
++--------------------------+------+-----+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 22     | 1    |
+| Total  | 1    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 2            | 0           | 0               |
+| Output I/O                    | 1            | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS33     |  3.30v |  N/A |  2    |  1     |  0            |
++--------------+--------+------+-------+--------+---------------+
+
+Nets assigned to chip global resources
++--------+---------+---------------------------------------------------+
+| Fanout | Type    | Name                                              |
++--------+---------+---------------------------------------------------+
+| 23     | INT_NET | Net   : CLK_LOCKED_Z                              |
+|        |         | Driver: CLK_LOCKED_inferred_clock_RNI4792/U0_RGB1 |
+|        |         | Source: NETLIST                                   |
+| 22     | INT_NET | Net   : reset_arst                                |
+|        |         | Driver: reset_ibuf_RNI8255/U0_RGB1                |
+|        |         | Source: NETLIST                                   |
+| 1      | INT_NET | Net   : CLK_OUT                                   |
+|        |         | Driver: PLL/FCCC_C0_0/GL0_INST/U0_RGB1            |
+|        |         | Source: NETLIST                                   |
++--------+---------+---------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+---------------------------+
+| Fanout | Type    | Name                      |
++--------+---------+---------------------------+
+| 7      | INT_NET | Net   : un31_counter_14_Z |
+|        |         | Driver: un31_counter_14   |
+| 7      | INT_NET | Net   : un31_counter_15_Z |
+|        |         | Driver: un31_counter_15   |
+| 7      | INT_NET | Net   : un31_counter_19_Z |
+|        |         | Driver: un31_counter_19   |
+| 3      | INT_NET | Net   : counter_Z[21]     |
+|        |         | Driver: counter[21]       |
+| 3      | INT_NET | Net   : counter_Z[20]     |
+|        |         | Driver: counter[20]       |
+| 3      | INT_NET | Net   : counter_Z[19]     |
+|        |         | Driver: counter[19]       |
+| 3      | INT_NET | Net   : counter_Z[18]     |
+|        |         | Driver: counter[18]       |
+| 3      | INT_NET | Net   : counter_Z[17]     |
+|        |         | Driver: counter[17]       |
+| 3      | INT_NET | Net   : counter_Z[16]     |
+|        |         | Driver: counter[16]       |
+| 3      | INT_NET | Net   : counter_Z[15]     |
+|        |         | Driver: counter[15]       |
++--------+---------+---------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+---------------------------+
+| Fanout | Type    | Name                      |
++--------+---------+---------------------------+
+| 7      | INT_NET | Net   : un31_counter_14_Z |
+|        |         | Driver: un31_counter_14   |
+| 7      | INT_NET | Net   : un31_counter_15_Z |
+|        |         | Driver: un31_counter_15   |
+| 7      | INT_NET | Net   : un31_counter_19_Z |
+|        |         | Driver: un31_counter_19   |
+| 3      | INT_NET | Net   : counter_Z[21]     |
+|        |         | Driver: counter[21]       |
+| 3      | INT_NET | Net   : counter_Z[20]     |
+|        |         | Driver: counter[20]       |
+| 3      | INT_NET | Net   : counter_Z[19]     |
+|        |         | Driver: counter[19]       |
+| 3      | INT_NET | Net   : counter_Z[18]     |
+|        |         | Driver: counter[18]       |
+| 3      | INT_NET | Net   : counter_Z[17]     |
+|        |         | Driver: counter[17]       |
+| 3      | INT_NET | Net   : counter_Z[16]     |
+|        |         | Driver: counter[16]       |
+| 3      | INT_NET | Net   : counter_Z[15]     |
+|        |         | Driver: counter[15]       |
++--------+---------+---------------------------+
+

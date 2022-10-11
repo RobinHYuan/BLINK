@@ -1,0 +1,582 @@
+#Build: Synplify Pro (R) S-2021.09M-SP1, Build 150R, Jun 14 2022
+#install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+#OS: Windows 10 or later
+#Hostname: GFLAP319
+
+# Tue Sep 20 15:34:11 2022
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: GFLAP319
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: GFLAP319
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\smartfusion2.v" (library work)
+@I::"C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\hdl\LED_BLINK.v" (library work)
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module Timer
+@N: CG364 :"C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\hdl\LED_BLINK.v":21:7:21:11|Synthesizing module Timer in library work.
+Running optimization stage 1 on Timer .......
+@A: CL282 :"C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\hdl\LED_BLINK.v":31:0:31:5|Feedback mux created for signal LED. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Finished optimization stage 1 on Timer (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+Running optimization stage 2 on Timer .......
+Finished optimization stage 2 on Timer (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\synthesis\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Sep 20 15:34:11 2022
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: GFLAP319
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Sep 20 15:34:12 2022
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\synthesis\synwork\Timer_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 23MB peak: 24MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Sep 20 15:34:12 2022
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: GFLAP319
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202109synp2, Build 152R, Built Jun 14 2022 11:35:28, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Sep 20 15:34:13 2022
+
+###########################################################]
+Premap Report
+
+# Tue Sep 20 15:34:13 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: GFLAP319
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 123MB peak: 132MB)
+
+Reading constraint file: C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\designer\Timer\synthesis.fdc
+@L: C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\synthesis\Timer_scck.rpt 
+See clock summary report "C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\synthesis\Timer_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 132MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 132MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 132MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 132MB)
+
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 164MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 164MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=31 on top level netlist Timer 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 165MB peak: 165MB)
+
+
+
+Clock Summary
+******************
+
+          Start              Requested     Requested     Clock        Clock          Clock
+Level     Clock              Frequency     Period        Type         Group          Load 
+------------------------------------------------------------------------------------------
+0 -       Timer|CLOCK_50     100.0 MHz     10.000        inferred     (multiple)     29   
+==========================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                   Clock     Source             Clock Pin       Non-clock Pin     Non-clock Pin
+Clock              Load      Pin                Seq Example     Seq Example       Comb Example 
+-----------------------------------------------------------------------------------------------
+Timer|CLOCK_50     29        CLOCK_50(port)     LED.C           -                 -            
+===============================================================================================
+
+@W: MT530 :"c:\users\robin.yuan\onedrive - general fusion inc\desktop\first_fpga_test\hdl\led_blink.v":31:0:31:5|Found inferred clock Timer|CLOCK_50 which controls 29 sequential elements including counter[27:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\synthesis\Timer.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 166MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 167MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 84MB peak: 168MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Sep 20 15:34:15 2022
+
+###########################################################]
+Map & Optimize Report
+
+# Tue Sep 20 15:34:15 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09M-SP1
+Install: C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+OS: Windows 6.2
+
+Hostname: GFLAP319
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202109actsp1, Build 056R, Built Jun 14 2022 13:56:21, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 120MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 132MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 132MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 132MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 132MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+#### START OF SSF LOG MESSAGES ####
+
+#### END OF SSF LOG MESSAGES ####
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 166MB peak: 166MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 167MB peak: 167MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 168MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 169MB peak: 169MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 170MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 170MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 170MB peak: 170MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 170MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		     5.36ns		  61 /        29
+@N: FP130 |Promoting Net reset_arst on CLKINT  I_33 
+@N: FP130 |Promoting Net CLOCK_50_c on CLKINT  I_34 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 171MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 171MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 29 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       CLOCK_50            port                   29         LED            
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 171MB)
+
+Writing Analyst data base C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\synthesis\synwork\Timer_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 172MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 172MB)
+
+@W: MT420 |Found inferred clock Timer|CLOCK_50 with period 10.00ns. Please declare a user-defined clock on port CLOCK_50.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Tue Sep 20 15:34:17 2022
+#
+
+
+Top view:               Timer
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\designer\Timer\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 6.206
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock     
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group     
+------------------------------------------------------------------------------------------------------------
+Timer|CLOCK_50     100.0 MHz     263.6 MHz     10.000        3.794         6.206     inferred     (multiple)
+============================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                          |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------
+Starting        Ending          |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------
+Timer|CLOCK_50  Timer|CLOCK_50  |  10.000      6.206  |  No paths    -      |  No paths    -      |  No paths    -    
+======================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: Timer|CLOCK_50
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                Starting                                            Arrival          
+Instance        Reference          Type     Pin     Net             Time        Slack
+                Clock                                                                
+-------------------------------------------------------------------------------------
+counter[8]      Timer|CLOCK_50     SLE      Q       counter[8]      0.108       6.206
+counter[7]      Timer|CLOCK_50     SLE      Q       counter[7]      0.108       6.284
+counter[13]     Timer|CLOCK_50     SLE      Q       counter[13]     0.108       6.391
+counter[6]      Timer|CLOCK_50     SLE      Q       counter[6]      0.108       6.450
+counter[17]     Timer|CLOCK_50     SLE      Q       counter[17]     0.108       6.486
+counter[16]     Timer|CLOCK_50     SLE      Q       counter[16]     0.087       6.522
+counter[24]     Timer|CLOCK_50     SLE      Q       counter[24]     0.108       6.522
+counter[10]     Timer|CLOCK_50     SLE      Q       counter[10]     0.108       6.544
+counter[9]      Timer|CLOCK_50     SLE      Q       counter[9]      0.108       6.545
+counter[5]      Timer|CLOCK_50     SLE      Q       counter[5]      0.108       6.564
+=====================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                Starting                                                 Required          
+Instance        Reference          Type     Pin     Net                  Time         Slack
+                Clock                                                                      
+-------------------------------------------------------------------------------------------
+LED             Timer|CLOCK_50     SLE      D       un5_LED_i            9.745        6.206
+counter[7]      Timer|CLOCK_50     SLE      D       un45_counter[7]      9.745        6.391
+counter[12]     Timer|CLOCK_50     SLE      D       un45_counter[12]     9.745        6.391
+counter[13]     Timer|CLOCK_50     SLE      D       un45_counter[13]     9.745        6.391
+counter[14]     Timer|CLOCK_50     SLE      D       un45_counter[14]     9.745        6.391
+counter[15]     Timer|CLOCK_50     SLE      D       un45_counter[15]     9.745        6.391
+counter[17]     Timer|CLOCK_50     SLE      D       un45_counter[17]     9.745        6.391
+counter[19]     Timer|CLOCK_50     SLE      D       un45_counter[19]     9.745        6.391
+counter[20]     Timer|CLOCK_50     SLE      D       un45_counter[20]     9.745        6.391
+counter[21]     Timer|CLOCK_50     SLE      D       un45_counter[21]     9.745        6.391
+===========================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      3.538
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     6.206
+
+    Number of logic level(s):                6
+    Starting point:                          counter[8] / Q
+    Ending point:                            LED / D
+    The start point is clocked by            Timer|CLOCK_50 [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            Timer|CLOCK_50 [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net              Pin      Pin               Arrival     No. of    
+Name               Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------
+counter[8]         SLE      Q        Out     0.108     0.108 f     -         
+counter[8]         Net      -        -       0.497     -           2         
+un5_LEDlto9_2      CFG2     B        In      -         0.605 f     -         
+un5_LEDlto9_2      CFG2     Y        Out     0.164     0.769 f     -         
+un5_LEDlt13_2      Net      -        -       0.497     -           2         
+LED_RNO_6          CFG4     B        In      -         1.266 f     -         
+LED_RNO_6          CFG4     Y        Out     0.148     1.415 r     -         
+N_50               Net      -        -       0.248     -           1         
+LED_RNO_4          CFG4     B        In      -         1.663 r     -         
+LED_RNO_4          CFG4     Y        Out     0.165     1.828 r     -         
+m34_e_0_1          Net      -        -       0.248     -           1         
+LED_RNO_2          CFG4     D        In      -         2.076 r     -         
+LED_RNO_2          CFG4     Y        Out     0.326     2.403 f     -         
+N_72               Net      -        -       0.248     -           1         
+LED_RNO_1          CFG4     C        In      -         2.651 f     -         
+LED_RNO_1          CFG4     Y        Out     0.226     2.877 r     -         
+m41_1_0            Net      -        -       0.248     -           1         
+LED_RNO            CFG4     B        In      -         3.125 r     -         
+LED_RNO            CFG4     Y        Out     0.165     3.290 r     -         
+un5_LED_i          Net      -        -       0.248     -           1         
+LED                SLE      D        In      -         3.538 r     -         
+=============================================================================
+Total path delay (propagation time + setup) of 3.794 is 1.557(41.1%) logic and 2.236(58.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+---------------------------------------
+Resource Usage Report for Timer 
+
+Mapping to part: m2s025vf400std
+Cell usage:
+CLKINT          2 uses
+CFG1           3 uses
+CFG2           1 use
+CFG3           1 use
+CFG4           27 uses
+
+Carry cells:
+ARI1            28 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            29 uses
+
+DSP Blocks:    0 of 34 (0%)
+
+I/O ports: 3
+I/O primitives: 3
+INBUF          2 uses
+OUTBUF         1 use
+
+
+Global Clock Buffers: 2
+
+Total LUTs:    60
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  29 + 0 + 0 + 0 = 29;
+Total number of LUTs after P&R:  60 + 0 + 0 + 0 = 60;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 62MB peak: 172MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Tue Sep 20 15:34:17 2022
+
+###########################################################]

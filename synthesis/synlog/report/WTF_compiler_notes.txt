@@ -1,0 +1,7 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG364 :"C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\smartfusion2.v":126:7:126:10|Synthesizing module AND2 in library work.
+@N: CG364 :"C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\component\work\WTF\WTF.v":9:7:9:9|Synthesizing module WTF in library work.
+@N|Running in 64-bit mode
+

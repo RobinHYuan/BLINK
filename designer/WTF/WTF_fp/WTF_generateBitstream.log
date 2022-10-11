@@ -1,0 +1,13 @@
+Software Version: 2022.2.0.10
+Opened 'C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\designer\WTF\WTF_fp\WTF.pro'
+PDB file 'C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\designer\WTF\WTF.pdb' has been loaded successfully.
+DESIGN : WTF;  CHECKSUM : 2DC5;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\designer\WTF\WTF.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\designer\WTF\WTF.ppd'; file programs Fabric.
+Fabric component bitstream digest: 10dfc11b5708e1e4ec3c7c31144989adb18e02fa9c50efdf101cbcd69f74b07b
+Entire bitstream digest: 3822c2c55d118c23f596fd05ba68c6d79cd352a9370224fc7cb1c12f182c1247
+Finished: Tue Sep 20 14:33:58 2022 (Elapsed time 00:00:14)
+
+Project saved.
+Project closed.

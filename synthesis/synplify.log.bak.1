@@ -1,0 +1,101 @@
+
+                               Synplify Pro (R) 
+
+                Version S-2021.09M-SP1 for win64 - Jun 14, 2022 
+
+                    Copyright (c) 1988 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     C:\Microchip\Libero_SoC_v2022.2\SynplifyPro
+Hostname:    GFLAP319
+Date:        Tue Sep 20 14:23:45 2022
+Version:     S-2021.09M-SP1
+
+Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log WTF_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+"automatic_compile_point" is unrecognized option for current device
+Implementation not found: synthesis
+log file: "C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\synthesis\WTF.srr"
+Running: synthesis in foreground
+
+Running WTF_syn|synthesis
+
+Running Flow: compile (Compile) on WTF_syn|synthesis
+# Tue Sep 20 14:23:48 2022
+
+Running Flow: compile_flow (Compile Process) on WTF_syn|synthesis
+# Tue Sep 20 14:23:48 2022
+
+Running: compiler (Compile Input) on WTF_syn|synthesis
+# Tue Sep 20 14:23:48 2022
+Copied C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\synthesis\synwork\WTF_comp.srs to C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\synthesis\WTF.srs
+
+compiler completed
+# Tue Sep 20 14:23:52 2022
+
+Return Code: 0
+Run Time:00h:00m:04s
+
+Running: multi_srs_gen (Multi-srs Generator) on WTF_syn|synthesis
+# Tue Sep 20 14:23:52 2022
+
+multi_srs_gen completed
+# Tue Sep 20 14:23:52 2022
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\synthesis\synwork\WTF_mult.srs to C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\synthesis\WTF.srs
+Complete: Compile Process on WTF_syn|synthesis
+
+Running: premap (Premap) on WTF_syn|synthesis
+# Tue Sep 20 14:23:52 2022
+
+premap completed
+# Tue Sep 20 14:23:57 2022
+
+Return Code: 0
+Run Time:00h:00m:05s
+Complete: Compile on WTF_syn|synthesis
+
+Running Flow: map (Map) on WTF_syn|synthesis
+# Tue Sep 20 14:23:57 2022
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on WTF_syn|synthesis
+# Tue Sep 20 14:23:57 2022
+Copied C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\synthesis\synwork\WTF_m.srm to C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\synthesis\WTF.srm
+
+fpga_mapper completed
+# Tue Sep 20 14:24:00 2022
+
+Return Code: 0
+Run Time:00h:00m:03s
+Complete: Map on WTF_syn|synthesis
+Complete: Logic Synthesis on WTF_syn|synthesis
+Copied C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\synthesis\WTF.srr to C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\synthesis\backup\WTF.srr
+TCL script complete: "WTF_syn.tcl"
+exit status=0
+exit status=0
+License checkin: synplifypro_actel

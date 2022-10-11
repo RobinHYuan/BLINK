@@ -1,0 +1,64 @@
+//
+// Written by Synplify Pro 
+// Product Version "S-2021.09M-SP1"
+// Program "Synplify Pro", Mapper "map202109actsp1, Build 056R"
+// Tue Sep 20 14:23:59 2022
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\generic\smartfusion2.v "
+// file 1 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\vlog\hypermods.v "
+// file 2 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\vlog\umr_capim.v "
+// file 3 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\vlog\scemi_objects.v "
+// file 4 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\vlog\scemi_pipes.svh "
+// file 5 "\c:\users\robin.yuan\onedrive - general fusion inc\desktop\first_fpga_test\component\work\wtf\wtf.v "
+// file 6 "\c:\microchip\libero_soc_v2022.2\synplifypro\lib\nlconst.dat "
+// file 7 "\c:\users\robin.yuan\onedrive - general fusion inc\desktop\first_fpga_test\designer\wtf\synthesis.fdc "
+
+`timescale 100 ps/100 ps
+module WTF (
+  A,
+  B,
+  Y
+)
+;
+input A ;
+input B ;
+output Y ;
+wire A ;
+wire B ;
+wire Y ;
+wire GND ;
+wire VCC ;
+wire A_c ;
+wire B_c ;
+wire Y_c ;
+// @5:20
+  INBUF A_ibuf (
+	.Y(A_c),
+	.PAD(A)
+);
+// @5:21
+  INBUF B_ibuf (
+	.Y(B_c),
+	.PAD(B)
+);
+// @5:25
+  OUTBUF Y_obuf (
+	.PAD(Y),
+	.D(Y_c)
+);
+// @5:42
+  AND2 AND2_0 (
+	.Y(Y_c),
+	.A(A_c),
+	.B(B_c)
+);
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* WTF */
+

@@ -1,0 +1,86 @@
+# Microsemi Physical design constraints file
+
+# Version: 2022.2 2022.2.0.10
+
+# Design Name: Timer 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S025 , Package: 256 VF , Speed grade: STD 
+
+# Date generated: Tue Sep 20 16:16:10 2022 
+
+
+#
+# I/O constraints
+#
+
+set_io CLOCK_50 -DIRECTION INPUT -pinname H16 -fixed no
+set_io LED -DIRECTION OUTPUT -pinname J16 -fixed no
+set_io reset -DIRECTION INPUT -pinname H12 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location un31_counter_14 -fixed no 470 69
+set_location CLK_LOCKED -fixed no 478 69
+set_location un31_counter_15 -fixed no 471 69
+set_location PLL/FCCC_C0_0/GL0_INST -fixed no 306 72
+set_location PLL/FCCC_C0_0/GL0_INST/U0_RGB1 -fixed no 446 69
+set_location counter\[17\] -fixed no 469 70
+set_location un31_counter_13 -fixed no 463 78
+set_location counter\[2\] -fixed no 458 76
+set_location counter\[7\] -fixed no 463 76
+set_location un5_LEDlto12 -fixed no 462 78
+set_location un31_counter_11 -fixed no 461 78
+set_location counter_RNO\[0\] -fixed no 467 78
+set_location counter\[6\] -fixed no 476 70
+set_location CLK_LOCKED_inferred_clock_RNI4792 -fixed no 297 72
+set_location un39_counter\[17\] -fixed no 469 69
+set_location counter\[8\] -fixed no 464 76
+set_location un31_counter_17 -fixed no 460 78
+set_location counter\[16\] -fixed no 477 70
+set_location LED_RNO -fixed no 478 75
+set_location counter\[15\] -fixed no 471 76
+set_location un31_counter_19 -fixed no 459 78
+set_location counter\[14\] -fixed no 479 70
+set_location un31_counter_3 -fixed no 458 78
+set_location counter\[21\] -fixed no 477 76
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 624 8
+set_location counter\[4\] -fixed no 460 76
+set_location un39_counter\[9\] -fixed no 475 69
+set_location counter\[5\] -fixed no 461 76
+set_location un5_LEDlto21_2 -fixed no 479 75
+set_location counter\[12\] -fixed no 468 76
+set_location counter\[1\] -fixed no 457 76
+set_location un39_counter\[14\] -fixed no 479 69
+set_location counter\[3\] -fixed no 459 76
+set_location un5_LEDlto17_2 -fixed no 474 69
+set_location counter\[19\] -fixed no 472 70
+set_location counter\[20\] -fixed no 476 76
+set_location CLK_LOCKED_inferred_clock_RNI4792/U0_RGB1 -fixed no 446 78
+set_location un39_counter\[18\] -fixed no 473 69
+set_location reset_ibuf_RNI8255 -fixed no 293 72
+set_location counter\[11\] -fixed no 467 76
+set_location counter\[18\] -fixed no 473 70
+set_location reset_ibuf_RNI8255/U0_RGB1 -fixed no 447 78
+set_location un5_LEDlto11_2 -fixed no 457 78
+set_location un39_counter\[6\] -fixed no 476 69
+set_location ip_interface_inst -fixed no 203 0
+set_location un39_counter\[16\] -fixed no 477 69
+set_location LED_Z -fixed no 624 70
+set_location un39_counter\[19\] -fixed no 472 69
+set_location counter\[13\] -fixed no 469 76
+set_location un5_LEDlto6 -fixed no 456 78
+set_location counter\[0\] -fixed no 467 79
+set_location counter\[10\] -fixed no 466 76
+set_location counter\[9\] -fixed no 475 70
+set_location PLL/FCCC_C0_0/CCC_INST -fixed no 618 134
+set_location un34_counter_s_1_27 -fixed no 456 75
+set_location CLK_LOCKED_inferred_clock_RNI4792/U0_RGB1_RGB0 -fixed no 446 75
+set_location CLK_LOCKED_inferred_clock_RNI4792/U0_RGB1_RGB1 -fixed no 447 69
+set_location reset_ibuf_RNI8255/U0_RGB1_RGB0 -fixed no 447 75
+set_location reset_ibuf_RNI8255/U0_RGB1_RGB1 -fixed no 448 69
+set_location un34_counter_s_1_27_CC_0 -fixed no 456 77
+set_location un34_counter_s_1_27_CC_1 -fixed no 468 77

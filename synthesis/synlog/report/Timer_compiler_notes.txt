@@ -1,0 +1,12 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG364 :"C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2022.2\SynplifyPro\lib\generic\smartfusion2.v":729:7:729:9|Synthesizing module CCC in library work.
+@N: CG364 :"C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.v":5:7:5:28|Synthesizing module FCCC_C0_FCCC_C0_0_FCCC in library work.
+@N: CG364 :"C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\component\work\FCCC_C0\FCCC_C0.v":139:7:139:13|Synthesizing module FCCC_C0 in library work.
+@N: CG364 :"C:\Users\robin.yuan\OneDrive - General Fusion Inc\Desktop\First_FPGA_TEST\hdl\LED_BLINK.v":21:7:21:11|Synthesizing module Timer in library work.
+@N|Running in 64-bit mode
+
